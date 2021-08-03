@@ -13,6 +13,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositories", "Repositorie
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebShopRepository", "CustomerRepository\WebShopRepository.csproj", "{A34019CA-9EE4-446F-95E7-0CFEEE4EB3E0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dif", "Dif", "{130B192A-AE9A-4A67-969D-64F066E4B2FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dif.Controller", "Dif.Controller\Dif.Controller.csproj", "{18E3C786-26CE-4AD7-B058-8BA98F6E0AC9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +35,10 @@ Global
 		{A34019CA-9EE4-446F-95E7-0CFEEE4EB3E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A34019CA-9EE4-446F-95E7-0CFEEE4EB3E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A34019CA-9EE4-446F-95E7-0CFEEE4EB3E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18E3C786-26CE-4AD7-B058-8BA98F6E0AC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18E3C786-26CE-4AD7-B058-8BA98F6E0AC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18E3C786-26CE-4AD7-B058-8BA98F6E0AC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18E3C786-26CE-4AD7-B058-8BA98F6E0AC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +46,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{603A0C7D-945B-40A2-98C0-0D2D18508A3E} = {48A9D913-2818-4029-B49E-B5680F5990BD}
 		{A34019CA-9EE4-446F-95E7-0CFEEE4EB3E0} = {C16F0E2D-0C7C-4A92-8B91-456C40C5871C}
+		{18E3C786-26CE-4AD7-B058-8BA98F6E0AC9} = {130B192A-AE9A-4A67-969D-64F066E4B2FF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DDE448B0-FD31-4572-B65B-28A091DDDCA4}

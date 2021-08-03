@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CustomerRepository\WebShopRepository.csproj" />
+    <ProjectReference Include="..\Dif.Controller\Dif.Controller.csproj" />
   </ItemGroup>
 
 </Project>

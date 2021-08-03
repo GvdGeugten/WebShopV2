@@ -1,5 +1,7 @@
 ﻿using System;
+using CustomerRepository;
 using WebShop.Bootstrapper;
+using WebShopRepository;
 
 namespace WebShopv2
 {
@@ -9,8 +11,10 @@ namespace WebShopv2
         {
             try
             {
+                var controller = Application.GetController();
+                //since customer needs to be instantiated with a name, it is not accessed successfully through the controller
                 var customer = CustomerFactory.GetCustomer("shopper");
-                var shop = ShopFactory.GetShop();
+                var shop = controller.Resolve<IShop>();
 
                 shop.OrderFromMerchant();
                 customer.TakeProduct(shop.FindProduct(3));
